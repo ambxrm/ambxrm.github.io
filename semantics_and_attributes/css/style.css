@@ -26,8 +26,13 @@ nav a {
     box-shadow: 4px 4px 10px 2px gray; 
 
 }
-img{
+.card img{
     height: 200px;
+}
+
+#image_container{
+    float: left;
+    padding-right: 24px;
 }
 
 footer{
