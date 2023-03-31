@@ -39,12 +39,8 @@ nav{
 .doodle img{
     width: 200px;
     margin: 10px;
+    border: 5px solid whitesmoke;
 }
-.doodle{
-    width: 200px
-    ma
-}    
-   
 
 .image_container{
     display: flex;
