@@ -4,3 +4,54 @@ li {
 li a{
     text-decoration: none;
 }
+
+.bold{
+    font-weight: bold;
+}
+nav{
+    text-align: left;
+}
+.text{
+    margin: 10px;
+}
+.wiki_image_1{
+    width: 250px;  
+    float: right; 
+}
+
+.wiki_image_1 img{
+    width: 100%;
+}
+
+.body_image_1 img{
+    width: 250px;
+    float: right;
+}
+.body_image_1{
+    width: 250px;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    padding: 4px;
+    margin: 12px;
+    float: right;
+}
+
+.doodle img{
+    width: 200px;
+    margin: 10px;
+}
+.doodle{
+    width: 200px
+    ma
+}    
+   
+
+.image_container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.image_container{
+    margin: 10px;
+}
