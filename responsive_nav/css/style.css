@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Tangerine&display=swap');
+body{
+    margin: 0px;
+}
+h1{
+    color: rgb(23, 10, 139);
+    font-family: 'Tangerine', cursive;
+}
+nav{
+    background-color:  #BCA2C9;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    list-style-type: none;
+    max-width: 800px;
+    margin: 0px auto;
+}
+ul li{
+    margin: 12px;
+}
+ul li{
+    margin: 12px;
+
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Faustina', serif;
+    
+}
+.services_container{
+    position: relative;
+}
+.services_menu{
+    background-color: skyblue;
+    position: absolute;
+    flex-direction: column;
+    width: 150%;
+    left: 0px;
+    top: 75%;
+    opacity: 0;
+    visibility: hidden;
+    top: 0.5s;
+}
+.services_container:hover .services_menu{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
