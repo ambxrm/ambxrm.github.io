@@ -66,6 +66,13 @@ li a{
 .side_by_side .body_img {
     flex: 1;
     font-family: 'Faustina', serif;
+    margin: 10px;
+}
+h1{
+    margin: 10px;
+}
+h2{
+    margin: 10px;
 }
 .body_img img{
     width: 100%;
@@ -79,5 +86,6 @@ footer{
 @media screen and (max-width: 768px){
     ul {
         flex-direction: column;
+        text-align: center;
     }
 }
