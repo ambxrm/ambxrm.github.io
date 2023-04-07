@@ -74,8 +74,15 @@ h1{
 h2{
     margin: 10px;
 }
+#sugaring{
+    margin: 10px;
+    clear: both;
+}
 .body_img img{
     width: 100%;
+}
+.body_ser img{
+    width: 200px;
 }
 footer{
     background-color: plum;
