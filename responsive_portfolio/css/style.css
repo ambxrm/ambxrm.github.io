@@ -167,8 +167,11 @@ footer ul {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    text-shadow: 2px 2px 2px brown;
+   
     color: white;
+}
+#hero_content h1, h4 {
+    text-shadow: 2px 2px 2px purple;
 }
 #hero h1,h2 {
     color: white;
