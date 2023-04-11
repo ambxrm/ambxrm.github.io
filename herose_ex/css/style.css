@@ -1,0 +1,69 @@
+Body {
+    margin: 0px;
+}
+
+p{
+    font-size: 32px;
+    margin: 24px;
+    height: 1000px;
+}
+
+#hero_1 {
+    background-image: url("../images/spacsky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 500px;
+    position: relative;
+}
+#hero_1 h1 {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font-family: fantasy;
+    font-size: 60px;
+    color: white;
+}
+
+
+#hero_2{
+    background-image: url("../images/ella-de-kross-gu6Peq5INUk-unsplash\ copy.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero_2 h2 {
+        font-family: fantasy;
+        font-size: 60px;
+        color: white;
+}
+
+#hero_2 h3 {
+    font-family: fantasy;
+    font-size: 48px;
+    color: white;
+}
+
+#hero_3 {
+    background-image: url("../images/giphy-downsized\ copy.GIF");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero_3 h2 {
+    font-family: fantasy;
+    font-size: 60px;
+    padding-top: 60px;
+}
