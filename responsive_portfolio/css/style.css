@@ -215,8 +215,9 @@ footer ul {
 /****************************************************************************
   Gallery styles
 ****************************************************************************/
-#gallery_container {
+#gallery_container, h2 {
     text-align: center;
+    color: #4682B4;
 }
 #gallery_1 {
     display: grid;
