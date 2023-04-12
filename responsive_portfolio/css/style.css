@@ -215,7 +215,35 @@ footer ul {
 /****************************************************************************
   Gallery styles
 ****************************************************************************/
-
+#gallery_container {
+    text-align: center;
+}
+#gallery_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#gallery_1 img {
+    width: 100%;
+}
+#gallery_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#gallery_2 img {
+    width: calc(800px/3);
+    height: calc(800px/3);
+    object-fit: cover;
+}
+#gallery_3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+#gallery_3 img {
+    height: 200px;
+    margin: 12px;
+    flex: 1 0 auto;
+    object-fit: cover;
+}
 /****************************************************************************
   Media Query - Mobile Breakpoint
 ****************************************************************************/
