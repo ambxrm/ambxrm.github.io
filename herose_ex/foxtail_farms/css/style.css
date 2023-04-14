@@ -1,5 +1,6 @@
 /* Google Font API imports - found at https://fonts.google.com/ */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 /*****************************************************************************
   Heading, Link, and Misc. Styles
 *****************************************************************************/
@@ -21,7 +22,7 @@ a {
 
 h4,
 p {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -109,6 +110,9 @@ nav {
 footer {
     display: flex;
     justify-content: center;
+    background-color: black;
+    text-align: center;
+    padding: 24px;
 }
 
 #nav_links {
