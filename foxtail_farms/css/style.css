@@ -198,11 +198,16 @@ footer ul {
 #hero a:hover, .card a:hover {
     transform: scale(1.1);
 }
+.card img {
+    width: 200px;
+    justify-content: center;
+}
 /****************************************************************************
   Card styles
 ****************************************************************************/
 #three_cards,#two_cards{
     display: flex;
+    justify-content: center;
 }
 .card {
     border: 2px solid black;
