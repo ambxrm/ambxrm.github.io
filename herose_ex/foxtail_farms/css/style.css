@@ -1,5 +1,6 @@
 /* Google Font API imports - found at https://fonts.google.com/ */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 /*****************************************************************************
   Heading, Link, and Misc. Styles
 *****************************************************************************/
@@ -21,7 +22,7 @@ a {
 
 h4,
 p {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -109,6 +110,9 @@ nav {
 footer {
     display: flex;
     justify-content: center;
+    background-color: black;
+    text-align: center;
+    padding: 24px;
 }
 
 #nav_links {
@@ -175,7 +179,7 @@ footer ul {
     color: #E1A177;
 }
 #hero_content h1, h4 {
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px brown;
 }
 #hero h1,h2 {
     color: #E1A177;
@@ -184,7 +188,7 @@ footer ul {
     background-color:  #E1A177;
     color: white;
     border: 2px solid #E1A177;
-    border-radius: 15px;
+    border-radius: 24px;
     display: inline-block;
     padding: 8px 16px;
     margin-top: 12px;
