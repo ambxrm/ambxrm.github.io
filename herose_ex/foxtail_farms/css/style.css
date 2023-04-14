@@ -41,7 +41,7 @@ a {
 nav,
 nav a,
 footer a {
-    color: plum;
+    color: black;
 }
 
 nav a:hover,
@@ -95,11 +95,15 @@ footer {
 /****************************************************************************
   Nav/Footer styles
 ****************************************************************************/
-nav , img {
+nav {
     align-items: center;
     display: flex;
-    margin: 0 24px;
     background-color: black;
+    padding: 20px;
+    position: sticky;
+}
+#logo img{
+    width: 100px;
 }
 
 footer {
@@ -218,7 +222,7 @@ footer ul {
 ****************************************************************************/
 #gallery_container, h2 {
     text-align: center;
-    color: #4682B4;
+    color: black;
 }
 #gallery_1 {
     display: grid;
