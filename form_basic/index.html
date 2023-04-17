@@ -8,10 +8,9 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <h1>A Basic Form</h1>
+        <h1>Your Typical Form </h1>
     <form>
         <fieldset>
-            <h2>Your Typical Form </h2>
             <h4>Whats Your Name?</h4>
             <div>
                 <label for="first_name_id">First Name:</label>
@@ -24,7 +23,22 @@
             <div>
                 <label for="last_name_id">Last Name:</label>
                 <input type="text" id="last_name_id" name="last_name">
-            </div>            
+            </div>  
+            <div>
+                <label for="week_days">
+                    Pick a day of the week.
+                </label>
+                <select id="food_group_id" name="food_group">
+                    <option value="sunday">Sunday</option>
+                    <option value="monday">Monday</option>
+                    <option value="tuesday">Tuesday</option>
+                    <option value="wendesday">Wendesday</option>
+                    <option value="thursday">Thursday</option>
+                    <option value="friday">Friday</option>
+                    <option value="saturday">Saturday</option>
+                    
+                </select>
+            </div>       
         </fieldset>
         <fieldset>
             <h4>Are You Human?</h4>
@@ -60,6 +74,9 @@
                 rows="5"
                 cols="40"
                 placeholder=""></textarea>
+        </div>
+        <div>
+            <input type="submit"> Your done now ;D
         </div>
         </fieldset>    
            
