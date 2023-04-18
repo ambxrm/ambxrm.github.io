@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Contact Form</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="grid_container">
+            <header>
+                <h1>Contacts us</h1>
+                <h5>
+                    Got a question? We'd love to 
+                    hear from you. Send us a message
+                    and we'll respond as soon as possible.
+                </h5>
+            </header>
+            <main>
+                <form>
+                    <div class="underline_imput">
+                        <label for="first_name_id">First Name:</label>
+                        <input type="text" id="first_name_id" name="first_name">
+                    </div>
+                    <div class="underline_imput">
+                        <label for="last_name_id">Last Name:</label>
+                        <input type="text" id="last_name_id" name="last_name">
+                    </div>
+                    <div class="underline_imput">
+                        <label for="email_id">Email:</label>
+                        <input type="email" id="email_id" name="email_id">
+                    </div>
+                    <div class="underline_imput">
+                        <label for="phone_id">Phone number :</label>
+                        <input type="text" id="phone_id" name="phone">
+                    </div>
+                    <div>
+                        <label for="work_group_id">
+                            What type of work are you looking?
+                        </label>
+                        <select id="work_catagory_id" name="work_catagory_id">
+                            <option value="Web_Design">Web Design</option>
+                            <option value="advertisment">Advertisment Design</option>
+                            <option value="logo_design">Logo design</option>
+                            <option value="photo_Design">Photo Design</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <div>
+                            <label for="message_id">Please leave a detailed message about the work you need.</label>
+                            <textarea 
+                                id="message_id" 
+                                name="message_feelings"
+                                rows="5"
+                                cols="40"
+                                placeholder="type your message here."></textarea>
+                        </div>
+                        <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </main>
+        </section>
+     </body>
+</html>

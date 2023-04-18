@@ -1,0 +1,51 @@
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template: ". header_area ."
+   ". main_area .";    
+}
+header{
+    grid-area: header_area;
+}
+main {
+    grid-area: main_area;
+}
+body{
+    background-color: #fafafa;
+}
+form{
+    background-color: white;
+    border: 2px solid #cccccc;
+    padding: 36px;
+}
+div {
+    margin-bottom: 18px;
+}
+div label {
+    display: block;
+    margin-bottom: 8px;
+}
+select,input,textarea{
+    padding: 12px;
+    border: 2px solid #cccccc;
+    width: 100%;
+    border-radius: border-box;
+
+}
+
+.underline_imput {
+    outline: 0px;
+    border-bottom: 3px solid lightslategray;
+
+
+}
+.underline_imput:focus-visible{
+    outline: 0px;
+    background-color: aliceblue;
+}
+input[type=submit]{
+    width: auto;
+    background-color: aquamarine;
+    color: black;
+    min-width: 100px;
+}
