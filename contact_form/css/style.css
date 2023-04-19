@@ -1,11 +1,13 @@
 #grid_container {
     display: grid;
+    margin: 0px;
     grid-template-columns: 1fr 600px 1fr;
     grid-template: ". header_area ."
    ". main_area .";    
 }
 header{
     grid-area: header_area;
+    text-align: center;
 }
 main {
     grid-area: main_area;
@@ -25,16 +27,24 @@ div label {
     display: block;
     margin-bottom: 8px;
 }
-select,input,textarea{
-    padding: 12px;
-    border: 2px solid #cccccc;
-    width: 100%;
-    border-radius: border-box;
-
+#first_name_id:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
 }
 
-.underline_imput {
-    outline: 0px;
+input[type=email]:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+select,input,textarea{
+    padding: 12px;
+    border-radius: 2px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.underline_imput input {
+    border: 0px;
     border-bottom: 3px solid lightslategray;
 
 
@@ -45,7 +55,8 @@ select,input,textarea{
 }
 input[type=submit]{
     width: auto;
-    background-color: aquamarine;
+    background-color: lightsteelblue;
+    border: solid lightsteelblue;
     color: black;
     min-width: 100px;
 }

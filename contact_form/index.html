@@ -18,22 +18,32 @@
                 </h5>
             </header>
             <main>
-                <form>
+                <form>                   
+                
                     <div class="underline_imput">
                         <label for="first_name_id">First Name:</label>
                         <input type="text" id="first_name_id" name="first_name">
                     </div>
+                    
                     <div class="underline_imput">
                         <label for="last_name_id">Last Name:</label>
                         <input type="text" id="last_name_id" name="last_name">
                     </div>
                     <div class="underline_imput">
                         <label for="email_id">Email:</label>
-                        <input type="email" id="email_id" name="email_id">
+                        <input type="email" id="email_id" name="email"
+                    required
+                    minlength="2"
+                    maxlength="20"
+                    type="text">
                     </div>
                     <div class="underline_imput">
                         <label for="phone_id">Phone number :</label>
-                        <input type="text" id="phone_id" name="phone">
+                        <input type="text" id="phone_id" name="phone"
+                        required
+                        minlength="2"
+                        maxlength="10"
+                        type="text"> 
                     </div>
                     <div>
                         <label for="work_group_id">
