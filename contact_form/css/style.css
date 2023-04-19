@@ -27,7 +27,7 @@ div label {
     display: block;
     margin-bottom: 8px;
 }
-#first_name_id:invalid {
+#phone_id:invalid {
     background-color: lightcoral;
     border-bottom: 4px solid red;
 }
