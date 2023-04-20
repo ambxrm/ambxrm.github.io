@@ -1,0 +1,61 @@
+body{
+    background-color: whitesmoke;
+}
+#grid_container {
+    display: grid;
+    margin: 0px;
+    font-family: sans-serif;
+    grid-template-columns: 1fr 600px 2fr;
+    grid-template: ". header_area ."
+   ". main_area .";    
+}
+header{
+    grid-area: header_area;
+    text-align: center;
+}
+main {
+    grid-area: main_area;
+}
+h4 , h1 {
+    text-align: center;
+}
+form{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 10px;
+}
+#names{
+    display: flex;  
+}
+input[type=text]{
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+}
+.birthday{
+    display: flex;
+}
+#month_id{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 2px;
+}
+#date_id{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 2px;
+}
+#year_id{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 2px;
+}
+.radio{
+    display: flex;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    width: 90px;   
+}
