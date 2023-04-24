@@ -48,8 +48,8 @@ input[type=text]{
     margin: 5px;
     box-sizing: border-box;
 }
-#first_name_id #last_name_id {
-    margin: 1px;
+.text {
+    margin-right: 10px;
 }
 .birthday{
     display: flex;
@@ -74,7 +74,7 @@ input[type=text]{
     flex: 1;
 }
 #gender{
-    display: flex;
+    display: flex; 
 }
 .radio{
     border: solid 1px lightgray;
@@ -82,7 +82,7 @@ input[type=text]{
     width: 80px;
     padding: 15px;
     margin: 5px; 
-    flex:   1;  
+    flex:   1;   
 }
 P{
     color: gray;
@@ -105,4 +105,29 @@ input[type=submit]{
 h5{
     text-align: center;
     font-size: 20px;
+}
+.b_g{
+    text-align: left;
+    font-size: 12px;
+    
+}
+#first_name_id:not(:focus):not(:placeholder-shown):invalid{
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+    
+}
+#last_name_id:not(:focus):not(:placeholder-shown):invalid{
+    background-color: lightcoral;
+    border-bottom: 4px solid red;   
+}
+#moblie_email_id:not(:focus):not(:placeholder-shown):invalid{
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+#new_pass_id:not(:focus):not(:placeholder-shown):invalid{
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+a{
+    text-decoration: none;
 }
