@@ -13,11 +13,23 @@ header{
     grid-area: header_area;
     text-align: center;
 }
+img {
+    width: 400px;
+}
 main {
     grid-area: main_area;
 }
 h4 , h1 {
     text-align: center;
+}
+h4 {
+    color: grey;
+}
+fieldset{
+    border: 0px;
+
+    border-top: 1px solid lightgrey;
+    
 }
 form{
     background-color: white;
@@ -31,9 +43,13 @@ form{
 input[type=text]{
     border-radius: 5px;
     border: 1px solid lightgrey;
-    width: 300px;
-    padding: 10px;
+    width: 100%;
+    padding: 15px;
     margin: 5px;
+    box-sizing: border-box;
+}
+#first_name_id #last_name_id {
+    margin: 1px;
 }
 .birthday{
     display: flex;
@@ -42,20 +58,51 @@ input[type=text]{
     border: 1px solid lightgray;
     border-radius: 5px;
     margin: 2px;
+    flex: 1;
+    padding: 15px;
 }
 #date_id{
     border: 1px solid lightgray;
     border-radius: 5px;
     margin: 2px;
+    flex: 1;
 }
 #year_id{
     border: 1px solid lightgray;
     border-radius: 5px;
     margin: 2px;
+    flex: 1;
+}
+#gender{
+    display: flex;
 }
 .radio{
-    display: flex;
     border: solid 1px lightgray;
     border-radius: 5px;
-    width: 90px;   
+    width: 80px;
+    padding: 15px;
+    margin: 5px; 
+    flex:   1;  
+}
+P{
+    color: gray;
+    font-size: 12px;
+}
+#sign_up{
+    display: flex;
+    justify-content: center;
+}
+input[type=submit]{
+    background-color: rgb(74, 195, 74);
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding: 15px;
+    width: 300px;
+    font-size: 30px;
+    
+}
+h5{
+    text-align: center;
+    font-size: 20px;
 }
