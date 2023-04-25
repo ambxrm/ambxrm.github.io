@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    color: gray;
+
+}
+nav h2 {
+    display: flex;
+    margin-left: auto;
+}
+nav img{
+    width: 100px;
+}
+#hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/hulu-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white
+}
+#hero h5{
+    color: #1ce783;
+}
+#hero_content h3{
+    border: 1px #1ce783;
+    background-color: #1ce783;
+    border-radius: 5px;
+    padding: 24px;
+    color: black
+}
+#hero_content p h5{
+    display: flex;
+   list-style-type: none;
+}
+#bundle{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    color: white;
+}
+#bundle h6 {
+    color: #1ce783;
+}
+#bundle h5 {
+    font-size: 15px;
+    border: 5px white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 24px;
+}
+#bundle img {
+    width: 300px;
+}
+#four_cards{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5px;
+}
+.card_tv{
+    border: 2px solid black;
+    background-image: url("../images/bobsburgers.jpeg");
+    color: white;
+    text-align: left;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+}
+.card_mov{
+    border: 2px solid black;
+    background-image: url("../images/prey.jpeg");
+    color: white;
+    text-align: left;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+}
+.card_og{
+    border: 2px solid black;
+    background-image: url("../images/handmaidstale.jpeg");
+    color: white;
+    text-align: left;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+}
+.card_add{
+    border: 2px solid black;
+    background-image: url("../images/houseofdragon.jpeg");
+    color: white;
+    text-align: left;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    padding: 24px;
+}
+@media screen and (max-width: 800px) {
+    #site_grid{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "nav_area"
+        "hero_area"
+        "three_cards_area"
+        "carousel_area"
+        "gallery_area"
+        "two_cards_area"
+        "footer_area";
+    
+}
+nav{
+flex-direction: column;
+}
+#three_cards, #two_cards {
+flex-direction: column;
+}
+.card {
+align-items: center;
+margin: 36px 24px 0px;
+}
+#gallery_1,
+#gallery_2 {
+grid-template-columns: 1fr;
+}
+#gallery_2 img {
+width: 100%;
+height: auto;
+}
+#gallery_4 {
+max-height: 1900px;
+}
+#gallery_4 img {
+width: 45%;
+}
+#gallery_5 {
+columns: 2 auto;
+}
+}
