@@ -17,13 +17,20 @@ nav{
 
 nav ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-    margin: 0px auto;
+    justify-content: flex-end;
     padding: 0px;
+    list-style-type: none;
+    max-width: 800px;
+    margin: 5px auto;
+}
+nav li {
+    margin: 12px;
 }
 
+#logo li{
+    margin-right: auto;
+    
+}
 
 nav img {
     width: 60px;
