@@ -17,22 +17,22 @@ nav{
 
 nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     list-style-type: none;
     margin: 0px auto;
     padding: 0px;
-    
-
 }
 
 
 nav img {
     width: 60px;
+    margin-left: auto;
 }
 nav #sign_up a {
     display: inline-block;
     color: whitesmoke;
+    border-radius: 5px;
     background-color: #0063E5;
     text-decoration: none;
     padding: 10px;
@@ -68,6 +68,23 @@ nav #sign_up a:hover{
 .small_link, .medium_link{
     color: whitesmoke;
     display: inline-block;
+}
+
+.button_link{
+    display: inline-block;
+    background-color: #0063E5;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    transition: opacity 0.5s;
+}
+.button_link:hover{
+    background-color: #4e99fc;
 }
 
 #email{
@@ -115,4 +132,44 @@ footer{
 footer img {
     width: 60px;
     align-self: center;
+}
+footer ul{
+    display: flex;
+    font-size: 10px;
+}
+.footer_links li{
+   
+    list-style-type: none;
+}
+.footer_links a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .button_link {
+        width: 80%;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 36px;
+    }
+    #mockup_gallery{
+        padding: 0px 24px;
+    }
+    #cards_section p {
+        width: 100%;
+    }
+    #mokup_conatiner {
+        
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0px 24px;   
+    }
+   #mokup_conatiner div {
+        background-repeat: no-repeat;
+    }
 }
