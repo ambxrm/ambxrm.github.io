@@ -65,6 +65,11 @@ nav #sign_up a:hover{
     color: whitesmoke;
 }
 
+.small_link, .medium_link{
+    color: whitesmoke;
+    display: inline-block;
+}
+
 #email{
     display: flex;  
     color: white;
@@ -82,13 +87,32 @@ input[type=text]{
     background-color: lightcoral;
     border-bottom: 4px solid red;
 }
-
-
-footer{
+#mockup_gallery {
     display: flex;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items:  center;
+    color:  whitesmoke;
+}
+#mokup_conatiner{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 10px auto;
+}
+#mokup_conatiner img {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px;
+}
+footer{
+    display: grid;
+    justify-content: center;
     padding: 12px 36px;
     margin-top: 60px;
     background-color: #040405;
     color: whitesmoke;
+}
+footer img {
+    width: 60px;
+    align-self: center;
 }
